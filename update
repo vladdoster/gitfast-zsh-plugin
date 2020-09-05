@@ -5,5 +5,4 @@ version="2.16.0"
 
 curl -s -o _git "${url}/git-completion.zsh?h=v${version}" &&
 curl -s -o git-completion.bash "${url}/git-completion.bash?h=v${version}" &&
-curl -s -o git-prompt.sh "${url}/git-prompt.sh?h=v${version}" &&
-git apply updates.patch
+curl -s -o git-prompt.sh "${url}/git-prompt.sh?h=v${version}"
